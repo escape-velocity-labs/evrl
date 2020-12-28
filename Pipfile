@@ -1,0 +1,30 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+setuptools = "*"
+gym = "*"
+pytest = "*"
+ipython = "*"
+joblib = "*"
+numpy = "*"
+jupyter = "*"
+opencv-python = "*"
+matplotlib = "*"
+gym-maze = {editable = true, path = "./gym-maze"}
+torch = "*"
+torchvision = "*"
+box2d = "*"
+tensorboard = "*"
+cmake = "*"
+atari-py = "*"
+moviepy = "*"
+glfw = "*"
+pylint = "*"
+
+[requires]
+python_version = "3.8"

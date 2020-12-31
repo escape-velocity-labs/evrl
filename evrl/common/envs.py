@@ -432,7 +432,7 @@ def make_atari(env_name: str) -> gym.Env:
 
     env = gym.make(env_name)
     env = AtariPreprocessing(env)
-    env = FrameStack(env, num_stack=4)
     env = NormalizeObservationWrapper(env)
+    env = FrameStack(env, num_stack=4)
     env = BufferEnv(env)
     return env

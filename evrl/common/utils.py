@@ -8,7 +8,7 @@ from typing import Iterable, Dict
 import numpy as np
 import torch
 import gym
-from core.common.envs import BufferEnv
+from evrl.common.envs import BufferEnv
 
 EPS = torch.finfo(torch.float32).eps
 
